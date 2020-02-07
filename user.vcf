@@ -1,14 +1,14 @@
 BEGIN:VCARD
 VERSION:3.0
 PRODID:-//Apple Inc.//iPhone OS 11.2.2//EN
-N:Lim;Preston;;;
-FN: Preston  Lim 
-ORG:GovTech;
-TITLE:Associate Software Engineer\nProducts Team, Data Science Division
-EMAIL;type=INTERNET;type=WORK;type=pref:preston@data.gov.sg
-TEL;type=WORK;type=VOICE:+65 9123 4567
-item1.ADR;type=WORK;type=pref:;;1 Fusionopolis View\nSandcrawler\, 09-01;;;138577;Singapore
+N:Robert;Joubert;;;
+FN: Robert  Joubert 
+ORG:Smartmove Web Development cc;
+TITLE:Sales, Marketing and Business Development Manager
+EMAIL;type=INTERNET;type=WORK;type=pref:robert@smartmove.com.na
+TEL;type=WORK;type=VOICE:+264 081 170 0915
+item1.ADR;type=WORK;type=pref:;;2A Ambrose Street\, Kleine Kuppe;;;Windhoek;Namibia
 item1.X-ABADR:sg
-item2.URL;type=pref:tech.gov.sg
+item2.URL;type=pref:smartmove.com.na
 item2.X-ABLabel:_$!<HomePage>!$_
 END:VCARD
