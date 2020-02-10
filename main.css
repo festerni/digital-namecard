@@ -192,9 +192,15 @@ img.profile-pic {
     height: 60%;
     width: 60%;
   }
+   img {
+    max-width: 55%;
+  }
+  .text-detail {
+    font-size: 14px;
+  }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 425px) {
   img.profile-pic {
     height: 100%;
     width: 100%;
@@ -203,7 +209,7 @@ img.profile-pic {
      height: 15%;
   }
   img {
-    max-width: 100%;
+    max-width: 80%;
   }
   section {
 	padding-left: 0.5rem;
