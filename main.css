@@ -123,15 +123,17 @@ img.profile-pic {
 }
 
 .banner {
-	height: 30%;
+	height: auto;
 }
 
 .primary-info {
-	height: 30%;
+	height: auto;
+	padding-bottom: 15px;
 }
 
 .secondary-info {
-	height: 8%;
+	height: auto;
+	padding: 10px;
 }
 
 .bg-color-grey {
@@ -171,7 +173,8 @@ img.profile-pic {
 }
 
 .bottom {
-	height: 23%;
+	height: auto;
+	padding: 30px;
 }
 
 .button {
@@ -234,9 +237,6 @@ img.profile-pic {
   img.profile-pic {
     height: 90%;
     width: 90%;
-  }
-  .primary-info {
-     height: 20%;
   }
   img {
     max-width: 90%;
