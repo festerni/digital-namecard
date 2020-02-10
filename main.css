@@ -224,6 +224,10 @@ img.profile-pic {
   .text-title {
     font-size: 14px;
   }
+  section {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
 }
 
 @media screen and (max-width: 470px) {
@@ -237,11 +241,7 @@ img.profile-pic {
   img {
     max-width: 90%;
   }
-  section {
-	padding-left: 0.5rem;
-	padding-right: 0.5rem;
-  }
-	.text-detail {
+  .text-detail {
     font-size: 12px;
   }
   .text-company {
