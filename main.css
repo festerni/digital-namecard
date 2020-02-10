@@ -8,8 +8,8 @@ body {
 
 section {
 	display: block;
-	padding-left: 5.5rem;
-	padding-right: 5.5rem;
+	padding-left: 9.5rem;
+	padding-right: 9.5rem;
 	height: auto;
 }
 
@@ -119,7 +119,7 @@ img.profile-pic {
 }
 
 .name-title-company {
-	height: 100%;
+	height: 70%;
 }
 
 .banner {
@@ -188,15 +188,39 @@ img.profile-pic {
 }
 
 @media screen and (max-width: 992px) {
-}
-
-@media screen and (max-width: 767px) {
   img.profile-pic {
     height: 40%;
     width: 40%;
   }
    img {
-    max-width: 70%;
+    max-width: 40%;
+  }
+  .name-title-company {
+	height: 100%;
+  }
+  section {
+	padding-left: 5.5rem;
+	padding-right: 5.5rem;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  img.profile-pic {
+    height: 50%;
+    width: 50%;
+  }
+  img {
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  img.profile-pic {
+    height: 60%;
+    width: 60%;
+  }
+   img {
+    max-width: 60%;
   }
   .text-detail {
     font-size: 14px;
@@ -209,10 +233,20 @@ img.profile-pic {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 630px) {
   img.profile-pic {
-    height: 100%;
-    width: 100%;
+    height: 75%;
+    width: 75%;
+  }
+  img {
+    max-width: 75%;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  img.profile-pic {
+    height: 90%;
+    width: 90%;
   }
   .primary-info {
      height: 20%;
