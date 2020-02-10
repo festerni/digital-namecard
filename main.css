@@ -187,14 +187,16 @@ img.profile-pic {
 	font-weight: 300;
 }
 
+@media screen and (max-width: 992px) {
+}
 
 @media screen and (max-width: 767px) {
   img.profile-pic {
-    height: 60%;
-    width: 60%;
+    height: 40%;
+    width: 40%;
   }
    img {
-    max-width: 100%;
+    max-width: 70%;
   }
   .text-detail {
     font-size: 14px;
@@ -207,16 +209,16 @@ img.profile-pic {
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 500px) {
   img.profile-pic {
     height: 100%;
     width: 100%;
   }
   .primary-info {
-     height: 15%;
+     height: 20%;
   }
   img {
-    max-width: 80%;
+    max-width: 90%;
   }
   section {
 	padding-left: 0.5rem;
