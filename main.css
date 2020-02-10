@@ -153,21 +153,21 @@ img.profile-pic {
     font-family: 'Lato', sans-serif;
     font-weight: 200;
     color: #333333;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .text-company {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     color: #333333;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .text-detail {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     color: #575757;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .bottom {
@@ -187,15 +187,22 @@ img.profile-pic {
 	font-weight: 300;
 }
 
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 767px) {
   img.profile-pic {
     height: 60%;
     width: 60%;
   }
    img {
-    max-width: 55%;
+    max-width: 100%;
   }
   .text-detail {
+    font-size: 14px;
+  }
+  .text-company {
+    font-size: 14px;
+  }
+  .text-title {
     font-size: 14px;
   }
 }
@@ -214,5 +221,14 @@ img.profile-pic {
   section {
 	padding-left: 0.5rem;
 	padding-right: 0.5rem;
+  }
+	.text-detail {
+    font-size: 12px;
+  }
+  .text-company {
+    font-size: 12px;
+  }
+  .text-title {
+    font-size: 12px;
   }
 }
