@@ -133,7 +133,7 @@ img.profile-pic {
 
 .secondary-info {
 	height: auto;
-	padding: 10px;
+	padding: 10px auto;
 }
 
 .bg-color-grey {
@@ -196,11 +196,11 @@ img.profile-pic {
 @media all and (min-width: 768px) and (max-width: 1024px) {
 
   img.profile-pic {
-    height: 50%;
-    width: 50%;
+    height: 100%;
+    width: 100%;
   }
   img {
-    max-width: 50%;
+    max-width: 100%;
   }
   .name-title-company {
      height: 100%;
@@ -215,8 +215,11 @@ img.profile-pic {
 @media all and (max-width : 767px) {
 
   img.profile-pic {
-    height: 40%;
-    width: 40%;
+    height: 50%;
+    width: 50%;
+  }
+  img {
+    max-width: 80%;
   }
   .text-detail {
     font-size: 14px;
@@ -228,8 +231,8 @@ img.profile-pic {
     font-size: 14px;
   }
   section {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 }
 
